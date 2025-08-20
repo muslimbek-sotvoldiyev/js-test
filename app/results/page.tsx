@@ -113,7 +113,7 @@ export default function ResultsPage() {
 
   const downloadResults = () => {
     const resultsText = `
-Python Test Natijalari
+Javascript Test Natijalari
 ======================
 Foydalanuvchi: ${userName}
 Umumiy ball: ${score}/${pythonQuestions.length} (${percentage}%)
@@ -143,7 +143,7 @@ ${results
     const url = URL.createObjectURL(blob)
     const a = document.createElement("a")
     a.href = url
-    a.download = `python-test-${userName.replace(/\s+/g, "-")}.txt`
+    a.download = `Javascript-test-${userName.replace(/\s+/g, "-")}.txt`
     a.click()
     URL.revokeObjectURL(url)
   }
@@ -155,7 +155,7 @@ ${results
         <div className="text-center mb-8">
           <Trophy className="w-16 h-16 mx-auto text-yellow-500 mb-4" />
           <h1 className="text-4xl font-bold mb-2">Test Natijalari</h1>
-          <p className="text-gray-300 text-lg">Python bilim testi yakunlandi</p>
+          <p className="text-gray-300 text-lg">Javascript bilim testi yakunlandi</p>
         </div>
 
         {/* Summary Cards */}

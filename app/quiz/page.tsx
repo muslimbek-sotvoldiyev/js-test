@@ -121,7 +121,7 @@ export default function QuizPage() {
         {/* Header */}
         <div className="mb-6">
           <div className="flex justify-between items-center mb-4">
-            <h1 className="text-2xl font-bold">Python Bilim Testi</h1>
+            <h1 className="text-2xl font-bold">Javascript Bilim Testi</h1>
             <div className="text-right">
               <p className="text-gray-300">Foydalanuvchi: {userName}</p>
               <p className="text-sm text-gray-400">

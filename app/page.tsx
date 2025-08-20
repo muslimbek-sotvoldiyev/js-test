@@ -91,8 +91,8 @@ export default function HomePage() {
       <div className="w-full max-w-4xl">
         <div className="text-center mb-8">
           <BookOpen className="w-20 h-20 mx-auto text-white mb-4" />
-          <h1 className="text-4xl font-bold mb-2">Python Bilim Testi</h1>
-          <p className="text-gray-300 text-lg">Python dasturlash tilidan bilimingizni sinab ko'ring</p>
+          <h1 className="text-4xl font-bold mb-2">Javascript Bilim Testi</h1>
+          <p className="text-gray-300 text-lg">Javascript dasturlash tilidan bilimingizni sinab ko'ring</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 items-center">
